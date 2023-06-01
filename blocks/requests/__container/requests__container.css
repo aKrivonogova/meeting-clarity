@@ -1,0 +1,8 @@
+.requests__container {
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ 

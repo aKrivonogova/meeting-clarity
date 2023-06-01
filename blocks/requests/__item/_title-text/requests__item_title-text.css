@@ -1,0 +1,10 @@
+.requests__item_title-text {
+    font-family: var(--font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-extra-medium);
+    line-height: 136.19%;
+    color: var(--font-color-variant-1);
+    padding-top: 9px;
+    padding-left: 10px;
+}

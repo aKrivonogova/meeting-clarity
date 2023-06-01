@@ -1,0 +1,20 @@
+.right-back img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: 68px;
+    height: 741px;
+}
+
+@media (min-width:1600px) {
+    .right-back img {
+        width: 230px;
+    }
+}
+
+@media (min-width:1900px) {
+    .right-back img {
+        width: 60%;
+    }
+}

@@ -1,0 +1,13 @@
+.question__content {
+    width: 762px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-bottom: 0.5px solid #252525;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.question__content:first-of-type {
+    border-top: 0.5px solid #252525;
+}

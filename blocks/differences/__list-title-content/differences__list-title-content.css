@@ -1,0 +1,13 @@
+.differences__list-title-content{
+    width: 503px;
+    height: 80px;
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-right: 13px;
+    background: #FAFAFA;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: 64px;
+    display: flex;
+    position: relative;
+}

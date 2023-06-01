@@ -1,0 +1,10 @@
+.footer__social-cells {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-cells>img {
+    width: 29.9px;
+    height: 29.9px;
+}

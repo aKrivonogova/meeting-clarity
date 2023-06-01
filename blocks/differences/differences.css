@@ -1,0 +1,7 @@
+.differences {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background: #F7F6F6;
+}

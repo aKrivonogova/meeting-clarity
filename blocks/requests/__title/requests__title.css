@@ -1,0 +1,12 @@
+.requests__title {
+    max-width: 622px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-block);
+    line-height: 47px;
+    text-align: center;
+    color: var(--font-color-variant-1);
+    padding-top: 80px;
+    margin-bottom: 100px;
+}

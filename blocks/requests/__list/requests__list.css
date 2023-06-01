@@ -1,0 +1,8 @@
+.requests__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-bottom: 117px;
+    width: 100%;
+}

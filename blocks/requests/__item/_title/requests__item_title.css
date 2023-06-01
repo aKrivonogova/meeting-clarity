@@ -1,0 +1,11 @@
+.requests__item_title{
+    border: none;
+    box-shadow: none;
+    margin-bottom: 60px;
+    max-width: 343px;
+}
+
+.requests__item_title::before{
+    width: 0;
+    height: 0;
+}

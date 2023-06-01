@@ -1,0 +1,12 @@
+.price__button {
+    background: linear-gradient(179.11deg, #FF427B -2.65%, #C82657 92.39%);
+    box-shadow: 0px 7px 16px -1px rgba(155, 155, 155, 0.7);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    font-family: var(--font-family-standart-variant-2);
+    font-size: 21px;
+    color: #FCF8FB;
+    width: 319px;
+    height: 60.81px;
+}

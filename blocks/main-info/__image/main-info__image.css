@@ -1,0 +1,21 @@
+.main-info__image {
+    width: 781px;
+    height: 740px;
+    position: absolute;
+    top: 0;
+    right: 68px;
+    z-index: -3;
+}
+
+@media (min-width:1600px) {
+    .main-info__image {
+        right: 220px;
+    }
+}
+
+
+@media (min-width:1900px) {
+    .main-info__image {
+        right: 340px;
+    }
+}

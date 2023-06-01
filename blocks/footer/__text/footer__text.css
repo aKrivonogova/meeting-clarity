@@ -1,0 +1,7 @@
+.footer__text {
+    font-family: var(--font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: 27px;
+    line-height: 32px;
+}

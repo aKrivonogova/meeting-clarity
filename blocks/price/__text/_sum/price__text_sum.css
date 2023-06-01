@@ -1,0 +1,10 @@
+.price__text_sum {
+    font-family: var(--font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large-extra);
+    line-height: 42px;
+    text-align: center;
+    color: #C82657;
+    margin-bottom: 10px;
+}

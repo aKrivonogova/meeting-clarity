@@ -1,0 +1,12 @@
+.price__title {
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-block);
+    line-height: 127.69%;
+    text-align: center;
+    padding-top: 78px;
+    margin-bottom: 76px;
+    color: var(--font-color-variant-1);
+
+}

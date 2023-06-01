@@ -1,0 +1,17 @@
+.price-description__text-block {
+    width: 198.02px;
+    border-bottom: 1px solid #E7E7E7;
+    position: relative;
+}
+
+.price-description__text-block:nth-child(1) {
+    margin-bottom: 21px;
+}
+
+.price-description__text-block:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+.price-description__text-block:nth-child(3) {
+    margin-bottom: 17px;
+}

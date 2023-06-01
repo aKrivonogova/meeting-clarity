@@ -1,0 +1,10 @@
+.differences__item-text {
+    font-family: var(--font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-small-variant2);
+    line-height: 127.69%;
+    color: var(--font-color-variant-3);
+    max-width: 388px;
+    padding-left: 97px;
+}

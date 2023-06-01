@@ -1,0 +1,41 @@
+.requests__item-image {
+    position: absolute;
+    z-index: 3;
+}
+
+#req1 {
+    width: 122px;
+    height: 132px;
+    left: 8px;
+    bottom: 80px;
+}
+
+#req2 {
+    width: 74.95px;
+    height: 184.5px;
+    left: 34px;
+    bottom: 38px;
+}
+
+#req3 {
+    width: 172.25px;
+    height: 190.57px;
+    left: -12px;
+    bottom: 16px;
+}
+
+
+#req4{
+    width: 160.82px;
+    height: 143.66px;
+    transform: rotate(-3.75deg);
+    top: -30px;
+    left: 1px;
+}
+
+#req5 {
+    width: 180px;
+    height: 182px;
+    left: -14px;
+    top: -34px;
+}

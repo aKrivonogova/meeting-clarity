@@ -1,0 +1,25 @@
+.requests__item {
+    min-width: 340.16px;
+    background: #FFFFFF;
+    border: 2px solid #D6D6D6;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 189.39px;
+ }
+
+.requests__item::before {
+    position: absolute;
+    z-index: 2;
+    top: 6px;
+    left: 9px;
+    content: '';
+    width: 321.77px;
+    height: 176.52px;
+    background: #F9F9F9;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+}
+

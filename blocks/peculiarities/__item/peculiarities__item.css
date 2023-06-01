@@ -1,0 +1,25 @@
+.peculiarities__item {
+    width: 916px;
+    min-height: 326px;
+    background-image: url('../../../images/peculiaritiesItemBack.svg');
+    position: relative;
+    margin-bottom: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.peculiarities__item::before {
+    position: absolute;
+    width: 832px;
+    height: 35px;
+    bottom: 10px;
+    left: 47px;
+    z-index: -2;
+    content: '';
+    background: #C82657;
+    border-radius: 10px;
+}
+
+.peculiarities__item:last-of-type {
+    margin-bottom: 0;
+}

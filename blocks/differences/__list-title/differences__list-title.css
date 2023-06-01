@@ -1,0 +1,11 @@
+.differences__list-title {
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large);
+    line-height: 127.69%;
+    padding-top: 17px;
+    color: var(--font-color-variant-9);
+    position: relative;
+    z-index: 4;
+}

@@ -1,0 +1,17 @@
+.peculiarities__item-description {
+    font-family: var(--font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size-extra-small-variant-1);
+    line-height: 26px;
+    color: var(--font-color-variant-3);
+    text-align: left;
+}
+
+.peculiarities__item:nth-child(2)>.peculiarities__text-container>.peculiarities__item-description {
+    max-width: 780px;
+}
+
+.peculiarities__item:nth-child(3)>.peculiarities__text-container>.peculiarities__item-description {
+    max-width: 750px;
+}

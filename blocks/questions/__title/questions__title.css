@@ -1,0 +1,11 @@
+.questions__title {
+    padding-top: 95px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-block);
+    line-height: 127.69%;
+    text-align: center;
+    margin-bottom: 72px;
+    color: var(--font-color-variant-1);
+}

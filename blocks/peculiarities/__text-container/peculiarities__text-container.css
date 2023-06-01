@@ -1,0 +1,6 @@
+.peculiarities__text-container{
+    padding-left: 73px;
+    padding-right: 26px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.main-info__subtitle {
+    font-family: var( --font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size-extra-small-variant-3);
+    line-height: 23px;
+    color: #DE2F64;
+    margin-left: 25px;
+    position: relative;
+    z-index: 20;
+ }
+
+ 
+/* .main-info__subtitle::before {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(241, 241, 241, 0.8) 0%, rgba(247, 243, 243, 0) 100%);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    width: 166.41px;
+    height: 445.54px;
+    content: '';
+    top: -20px;
+    left: -20px;
+    z-index: -10;
+    transform: rotate(88.26deg);
+}
+  */
+

@@ -1,0 +1,8 @@
+.price-description__container {
+    width: 444px;
+    padding: 8px 6px;
+    background: #FFFFFF;
+    border: 2px solid #D6D6D6;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}

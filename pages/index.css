@@ -75,10 +75,6 @@
 @import url('../blocks/footer/__text/_email/footer__text_email.css');
 @import url('../blocks/footer/__text/_phone/footer__text_phone.css');
 @import url('../blocks/footer/footer.css');
-
-
-
-
-
-
-
+@import url('../blocks/header/__burger-container/header__burger-container.css');
+@import url('../blocks/header/__burger/header__burger.css');
+@import url('../blocks/header/__content/header__content.css');

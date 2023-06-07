@@ -1,5 +1,5 @@
 .requests__container {
-    width: 1060px;
+    max-width: var(--requests-container-width);
     display: flex;
     flex-direction: column;
     align-items: center;

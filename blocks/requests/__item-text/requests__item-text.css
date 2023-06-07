@@ -5,43 +5,174 @@
     font-size: var(--font-size-medium);
     line-height: 33px;
     text-align: center;
-    color: var(--font-color-variant-3);
-    position: relative;
     z-index: 4;
+    position: absolute;
 }
 
 .requests__item:nth-child(2)>.requests__item-text {
     max-width: 235px;
-    padding-top: 63px;
-    padding-left: 94px;
-    padding-right: 14px;
+    bottom: 30px;
+    left: 93px;
 }
 
 .requests__item:nth-child(3)>.requests__item-text {
     max-width: 230px;
-    padding-top: 66px;
-    padding-left: 90px;
-    padding-right: 18px;
+    left: 95px;
 }
 
 .requests__item:nth-child(4)>.requests__item-text {
     max-width: 178px;
-    padding-top: 87px;
-    padding-left: 93px;
-    padding-right: 65px;
-
+    bottom: 33px;
+    left: 100px;
 }
 
 .requests__item:nth-child(5)>.requests__item-text {
     max-width: 237px;
-    padding-top: 82px;
-    padding-left: 81px;
-    padding-right: 22px;
-
+    bottom: 38px;
+    left: 80px;
 }
 
 .requests__item:nth-child(6)>.requests__item-text {
     max-width: 237px;
-    padding-top: 101px;
-    padding-left: 100px;
- }
+    bottom: 60px;
+    left: 110px;
+}
+
+@media (max-width: 1024px) {
+    .requests__item-text {
+        line-height: 27px;
+    }
+
+    .requests__item:nth-child(2)>.requests__item-text {
+        max-width: 235px;
+        bottom: 10px;
+        left: 73px;
+    }
+
+    .requests__item:nth-child(3)>.requests__item-text {
+        max-width: 194px;
+        left: 62px;
+        bottom: 30px;
+        font-size: 22px;
+    }
+
+    .requests__item:nth-child(4)>.requests__item-text {
+        max-width: 178px;
+        bottom: 20px;
+        left: 80px;
+    }
+
+    .requests__item:nth-child(5)>.requests__item-text {
+        max-width: 237px;
+        bottom: 20px;
+        left: 60px;
+    }
+
+    .requests__item:nth-child(6)>.requests__item-text {
+        max-width: 182px;
+        bottom: 30px;
+        left: 77px;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .requests__item:nth-child(3)>.requests__item-text {
+        font-size: var(--font-size-medium);
+    }
+
+    .requests__item:nth-child(2)>.requests__item-text {
+        left: 55px;
+    }
+}
+
+@media (max-width: 769px) {
+    .requests__item-text{
+        line-height: 20px;
+    }
+    .requests__item:nth-child(2)>.requests__item-text {
+        max-width: 235px;
+        bottom: 9px;
+        left: 43px;
+    }
+
+    .requests__item:nth-child(3)>.requests__item-text {
+        max-width: 194px;
+        left: 42px;
+        bottom: 20px;
+ 
+    }
+
+    .requests__item:nth-child(4)>.requests__item-text {
+        max-width: 178px;
+        bottom: 16px;
+        left: 40px;
+    }
+
+    .requests__item:nth-child(5)>.requests__item-text {
+        max-width: 237px;
+        bottom: 20px;
+        left: 40px;
+    }
+
+    .requests__item:nth-child(6)>.requests__item-text {
+        max-width: 182px;
+        bottom: 30px;
+        left: 57px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .requests__item-text{
+        line-height: 16px;
+    }
+    .requests__item:nth-child(2)>.requests__item-text {
+        bottom: 15px;
+    }
+
+    .requests__item:nth-child(3)>.requests__item-text {
+        bottom: 26px;
+    }
+
+    .requests__item:nth-child(4)>.requests__item-text {
+        bottom: 24px;
+    }
+
+    .requests__item:nth-child(5)>.requests__item-text {
+        max-width: 237px;
+        bottom: 20px;
+        left: 40px;
+    }
+
+    .requests__item:nth-child(6)>.requests__item-text {
+        max-width: 182px;
+        bottom: 30px;
+        left: 57px;
+    }
+}
+
+@media (max-width: 400px) {
+    .requests__item:nth-child(2)>.requests__item-text {
+        left: 22px;
+        bottom: 16px;
+    }
+
+    .requests__item:nth-child(3)>.requests__item-text {
+        bottom: 16px;
+    }
+    .requests__item:nth-child(5)>.requests__item-text {
+        bottom: 16px;
+    }
+
+    .requests__item:nth-child(6)>.requests__item-text {
+        right: 30px;
+        bottom: 16px;
+    }
+    .requests__item:nth-child(4)>.requests__item-text {
+        bottom: 16px;
+    }
+
+
+}

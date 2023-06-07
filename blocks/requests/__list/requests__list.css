@@ -1,8 +1,29 @@
-.requests__list{
+.requests__list {
     display: flex;
     justify-content: space-between;
     list-style: none;
     flex-wrap: wrap;
     padding-bottom: 117px;
     width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .requests__list {
+        padding-bottom: 84px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .requests__list {
+        padding-bottom: 80px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .requests__list {
+        padding-bottom: 25px;
+        justify-content: space-around;
+    }
 }

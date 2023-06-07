@@ -5,6 +5,8 @@
     font-size: var(--font-size-extra-medium);
     line-height: 136.19%;
     color: var(--font-color-variant-1);
-    padding-top: 9px;
+    padding-top: 0px;
     padding-left: 10px;
+    align-self: flex-start;
+    margin-bottom: 0;
 }

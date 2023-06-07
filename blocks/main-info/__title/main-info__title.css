@@ -9,6 +9,33 @@
     margin-top: 0;
     padding-top: 152px;
     margin-bottom: 0;
-    position: relative;
 }
 
+@media (max-width: 1024px) {
+    .main-info__title {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-info__title {
+        padding-top: 25px;
+        line-height: 47px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-info__title {
+        line-height: 44px;
+        width: 100%;
+        text-align: right;
+        padding-top: 48px;
+     }
+}
+
+
+@media (max-width: 360px) {
+    .main-info__title {
+        padding-top: 0px;
+     }
+}

@@ -6,12 +6,11 @@
     --font-size-extra-small-variant-2: 1.4375rem;
     --font-size-extra-small-variant-3: 1.25rem;
     --font-size-small: 1.5rem;
-    --font-size-small-variant2: 1.5625rem;
+    --font-size-small-variant-2: 1.5625rem;
     --font-size-medium: 1.75rem;
     --font-size-extra-medium: 1.875rem;
     --font-size-large: 2.0625rem;
     --font-size-large-extra: 2.25rem;
-
     --font-size-standard: 1rem;
     /*семество шрифтов*/
     --font-family-title: 'Archivo Narrow', arial;
@@ -45,9 +44,200 @@
     --theme-color-variant-5: #FBFAFA;
 
     /* кнопки */
-    --button-font-size: 1.25rem;
-    --button-heigh-small: 52px;
-    --button-heigh-medium: 55px;
-    --button-heigh-large: 65px;
+    --button-large-font-size: 1.4375rem;
+    --button-small-font-size: 1.3125rem;
+    --button-small-width: 319px;
+    --button-large-width: 341px;
+    --button-small-height: 60px;
+    --button-large-height: 65px;
 
+    /* размеры  */
+    --main-info-container-width: 70%;
+    --header-container-width: 70%;
+    --main-info-content-width: 580px;
+    --main-info-description-width: 498px;
+    --requests-container-width: 1060px;
+    --requests-item-width: 340px;
+    --requests-item-height: 189px;
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --main-info-container-width: 80%;
+        --header-container-width: 80%;
+        --requests-item-width: 320px;
+        --requests-item-height: 160px;
+        --requests-container-width: 1020px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --font-size-main-title: 3.125rem;
+        --font-size-extra-small-variant-3: 1.0625rem;
+        --main-info-content-width: 508px;
+        --button-large-width: 277px;
+        --button-large-height: 52px;
+        --button-large-font-size: 1.25rem;
+        --main-info-container-width: 80%;
+        --requests-container-width: 840px;
+        --font-size-title-block: 2.0625rem;
+        --font-size-extra-medium: 1.75rem;
+        --requests-item-width: 262px;
+        --requests-item-height: 136px;
+    }
+
+    .main-info__desctiption {
+        --font-size-small-variant-2: 1.3125rem;
+        --main-info-description-width: 418px;
+    }
+
+    .requests__item-text {
+        --font-size-medium: 1.4375rem;
+    }
+
+}
+
+@media (max-width: 850px) {
+    :root {
+        --requests-container-width: 760px;
+        --font-size-extra-medium: 1.45rem;
+        --requests-item-width: 230px;
+        --requests-item-height: 116px;
+    }
+
+    .requests__item-text {
+        --font-size-medium: 1.2rem;
+    }
+
+}
+
+@media (max-width: 950px) {
+    :root {
+        --main-info-container-width: 90%;
+        --main-info-content-width: 450px;
+        --font-size-main-title: 2.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --main-info-container-width: 80%;
+        --font-size-main-title: 2.1875rem;
+        --font-size-extra-small-variant-3: 0.875rem;
+        --main-info-content-width: 360px;
+        --button-large-width: 209.21px;
+        --button-large-height: 39px;
+        --button-large-font-size: 1.0625rem;
+        --font-size-title-block: 1.875rem;
+
+        --requests-container-width: 647px;
+        --font-size-extra-medium: 1.5625rem;
+        --requests-item-width: 202px;
+        --requests-item-height: 112px;
+    }
+
+    .main-info__desctiption {
+        --font-size-small-variant-2: 1.0625rem;
+        --main-info-description-width: 330px;
+    }
+
+    .requests__item-text {
+        --font-size-medium: 1.0625rem;
+    }
+}
+
+@media (max-width: 660px) {
+    :root {
+        --main-info-container-width: 90%;
+        --font-size-main-title: 2.04rem;
+        --main-info-content-width: 340px;
+        --requests-container-width: 440px;
+    }
+
+    .main-info__desctiption {
+        --font-size-small-variant-2: 1rem;
+        --main-info-description-width: 100%;
+    }
+}
+
+
+@media (max-width: 570px) {
+    :root {
+        --main-info-container-width: 98%;
+        --font-size-main-title: 1.9rem;
+        --main-info-content-width: 310px;
+    }
+
+    .main-info__desctiption {
+        --font-size-small-variant-2: 0.9rem;
+        --main-info-description-width: 300px;
+
+    }
+}
+
+
+@media (max-width: 450px) {
+    :root {
+        --main-info-container-width: 100%;
+        --font-size-main-title: 2.0625rem;
+        --main-info-content-width: 340px;
+        --font-size-extra-small-variant-3: 0.8125rem;
+        --button-large-width: 255.21px;
+        --button-large-height: 45px;
+        --button-large-font-size: 1.0625rem;
+    }
+
+    .main-info__desctiption {
+        --font-size-small-variant-2: 1.0625rem;
+        --main-info-description-width: 346px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    :root {
+        --font-size-main-title: 2.0625rem;
+        --font-size-title-block: 1.8125rem;
+        --requests-container-width: 395px;
+        --requests-item-width: 192px;
+        --requests-item-height: 128px;
+        --font-size-extra-medium: 1.4375rem;
+    }
+
+    .requests__item-text {
+        --font-size-medium: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --requests-container-width: 340px;
+        --requests-item-width: 149px;
+        --requests-item-height: 99px;
+        --font-size-extra-medium: 1.25rem;
+    }
+
+    .requests__item-text {
+        --font-size-medium: 0.875rem;
+    }
+
+    .requests__title {
+        --font-size-title-block: 1.625rem;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+    :root {
+        --font-size-main-title: 1.875rem;
+        --button-large-width: 228.21px;
+        --button-large-height: 40px;
+    }
+
+    .main-info__desctiption {
+        --font-size-small-variant-2: 1rem;
+    }
 }

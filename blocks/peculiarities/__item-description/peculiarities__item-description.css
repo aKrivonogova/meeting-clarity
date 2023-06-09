@@ -91,6 +91,7 @@
 @media (max-width: 390px) {
     .peculiarities__item-description {
         line-height: 15px;
+        padding-bottom: 0 !important;
     }
 
     .peculiarities__item:nth-child(2)>.peculiarities__text-container>.peculiarities__item-description,
@@ -100,6 +101,9 @@
 
     .peculiarities__item:nth-child(3)>.peculiarities__text-container>.peculiarities__item-description {
         padding-bottom: 30px;
+    }
+    .peculiarities__item:nth-child(2)>.peculiarities__text-container>.peculiarities__item-description {
+        padding-bottom: 14px;
     }
 
     .peculiarities__item:nth-child(1)>.peculiarities__text-container>.peculiarities__item-description {

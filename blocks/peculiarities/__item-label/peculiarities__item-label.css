@@ -76,4 +76,8 @@
         left: 40px;
     }
 
+    .peculiarities__item:nth-of-type(3)>.peculiarities__item-label {
+        top: -3px;
+    }
+
 }

@@ -74,4 +74,9 @@
     }
 }
 
- 
+@media (max-width: 390px) {
+    .peculiarities__item:nth-child(2)>.peculiarities__text-container>.peculiarities__item-title {
+        max-width: 208px;
+    }
+
+}

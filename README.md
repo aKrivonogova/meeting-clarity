@@ -1,1 +1,3 @@
 # meeting-clarity
+
+верстка макета 

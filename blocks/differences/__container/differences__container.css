@@ -1,7 +1,25 @@
 .differences__container {
-    width: 1080px;
+    width: var(--differences-container-widht);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 138px;
+}
+
+@media (max-width: 1024px) {
+    .differences__container {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .differences__container {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .differences__container {
+        padding-bottom: 90px;
+    }
 }

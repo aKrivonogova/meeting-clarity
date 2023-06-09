@@ -1,6 +1,83 @@
-.peculiarities__text-container{
+/* .peculiarities__text-container {
     padding-left: 73px;
     padding-right: 26px;
     display: flex;
     flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 920px 329px;
+    background-image: url('../../../images/peculiaritiesItemBack.png');
+}
+
+@media (max-width: 1024px) {
+    .peculiarities__text-container {
+        padding-left: 80px;
+        background-image: url('../../../images/peculiarities1024_small.svg');
+        background-size: 100%;
+    }
+
+    .peculiarities__item:nth-of-type(2)>.peculiarities__text-container,
+    .peculiarities__item:nth-of-type(3)>.peculiarities__text-container {
+        background-image: url('../../../images/peculiarities1024_small.svg');
+    }
+}
+
+@media (max-width: 768px) {
+    .peculiarities__text-container {
+        padding-left: 53px;
+        padding-right: 0;
+        background-size: 100%;
+        background-image: url('../../../images/p768.png');
+    }
+}
+
+@media (max-width: 635px) {
+    .peculiarities__text-container {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .peculiarities__text-container,
+    .peculiarities__item:nth-of-type(2)>.peculiarities__text-container,
+    .peculiarities__item:nth-of-type(3)>.peculiarities__text-container {
+        background-image: url('../../../images/group425.png');
+        background-size: 390px 240px;
+        padding-bottom: 20px;
+    }
+
+    .peculiarities__item:nth-of-type(2)>.peculiarities__text-container {
+        background-size: 390px 260px;
+    }
+
+} */
+
+.peculiarities__text-container {
+    padding-left: 73px;
+    padding-right: 26px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .peculiarities__text-container {
+        padding-left: 60px;
+    }
+    .peculiarities__text-container:nth-of-type(1) {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 635px) {
+    .peculiarities__text-container {
+        padding-left: 30px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .peculiarities__text-container {
+        padding-left: 40px;
+    }
 }

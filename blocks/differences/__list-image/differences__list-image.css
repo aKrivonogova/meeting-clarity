@@ -6,3 +6,35 @@
     position: relative;
     margin-right: 17px;
 }
+
+@media (max-width: 1024px) {
+    .differences__list-image {
+        width: 100.57px;
+        height: 102.12px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .differences__list-image {
+        width: 75.02px;
+        height: 76.18px;
+        top: -34px;
+        margin-right: 12px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .differences__list-image {
+        width: 66.94px;
+        height: 66.94px;
+    }
+}
+
+@media (max-width: 360px) {
+    .differences__list-image {
+        width: 70.1px;
+        height: 71.18px;
+    }
+}

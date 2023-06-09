@@ -1,13 +1,22 @@
 .differences__list-container {
-    width: 527px;
+    width: var(--differences-list-container-widht);
     background: #FFFFFF;
     border: 2px solid #D6D6D6;
     box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     position: relative;
-    height: 390px;
+
 }
 
-.differences__list-container:last-of-type>.differences__list>.differences__item::before {
-    background-image: url('../../../images/item2.png');
+
+@media (max-width: 635px) {
+    .differences__list-container:last-child {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 360px) {
+    .differences__list-container:last-child {
+        margin-bottom: 40px;
+    }
 }

@@ -1,5 +1,4 @@
-.differences__list-title-content{
-    width: 503px;
+.differences__list-title-content {
     height: 80px;
     margin-top: 8px;
     margin-left: 11px;
@@ -10,4 +9,39 @@
     margin-bottom: 64px;
     display: flex;
     position: relative;
+}
+
+@media (max-width: 1024px) {
+    .differences__list-title-content {
+        margin-top: 6px;
+        margin-left: 8px;
+        margin-right: 10px;
+        margin-bottom: 33px;
+        height: 61px;
+    }
+}
+
+@media (max-width: 768px) {
+    .differences__list-title-content {
+        margin-top: 3px;
+        margin-left: 6px;
+        margin-right: 8px;
+        margin-bottom: 33px;
+        height: 41px;
+    }
+}
+
+@media (max-width: 425px) {
+    .differences__list-title-content {
+        margin-left: 7px;
+    }
+}
+
+@media (max-width: 360px) {
+    .differences__list-title-content {
+        margin-left: 5px;
+        margin-right: 7px;
+        margin-bottom: 26px;
+        height: 38px;
+    }
 }

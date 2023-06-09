@@ -2,9 +2,52 @@
     font-family: var(--font-family-standart-variant-2);
     font-style: normal;
     font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-small-variant2);
+    font-size: var(--font-size-small-variant-2);
     line-height: 127.69%;
     color: var(--font-color-variant-3);
     max-width: 388px;
     padding-left: 97px;
+}
+
+.differences__list-container:last-of-type>.differences__list>.differences__item>.differences__item-text {
+    padding-left: 106px;
+}
+
+@media (max-width: 1024px) {
+    .differences__item-text {
+        padding-left: 70px;
+    }
+
+    .differences__list-container:last-of-type>.differences__list>.differences__item>.differences__item-text {
+        padding-left: 80px;
+    }
+
+    .differences__list-container:first-of-type>.differences__list>.differences__item:nth-of-type(3)>.differences__item-text {
+        max-width: 298px;
+    }
+
+    .differences__list-container:last-of-type>.differences__list>.differences__item:nth-of-type(3)>.differences__item-text {
+        max-width: 304px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .differences__item-text {
+        padding-left: 35px;
+    }
+
+    .differences__list-container:last-of-type>.differences__list>.differences__item>.differences__item-text {
+        padding-left: 50px;
+    }
+
+    .differences__list-container:last-of-type>.differences__list>.differences__item:nth-of-type(3)>.differences__item-text {
+        max-width: 228px;
+    }
+}
+
+@media (max-width: 360px) {
+    .differences__item-text {
+        padding-left: 39px;
+    }
 }

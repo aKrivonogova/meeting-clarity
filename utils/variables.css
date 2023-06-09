@@ -52,13 +52,30 @@
     --button-large-height: 65px;
 
     /* размеры  */
-    --main-info-container-width: 70%;
-    --header-container-width: 70%;
+    --main-info-container-width: 1023px;
+    --header-container-width: 1023px;
     --main-info-content-width: 580px;
     --main-info-description-width: 498px;
     --requests-container-width: 1060px;
     --requests-item-width: 340px;
     --requests-item-height: 189px;
+    --differences-container-widht: 1096px;
+    --differences-list-container-widht: 527px;
+    --peculiarities-container-width: 920px;
+    --peculiarities-item-width: 916px;
+    --peculiarities-item-height: 317px;
+}
+
+
+@media (max-width: 1100px) {
+    :root {
+        --differences-container-widht: 1020px;
+        --differences-list-container-widht: 490px;
+    }
+
+    .differences__item-text {
+        --font-size-small-variant-2: 1.45rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -76,7 +93,7 @@
     :root {
         --font-size-main-title: 3.125rem;
         --font-size-extra-small-variant-3: 1.0625rem;
-        --main-info-content-width: 508px;
+        --main-info-content-width: 510px;
         --button-large-width: 277px;
         --button-large-height: 52px;
         --button-large-font-size: 1.25rem;
@@ -85,7 +102,12 @@
         --font-size-title-block: 2.0625rem;
         --font-size-extra-medium: 1.75rem;
         --requests-item-width: 262px;
-        --requests-item-height: 136px;
+        --requests-item-height: 142px;
+        --differences-container-widht: 850px;
+        --differences-list-container-widht: 413px;
+        --peculiarities-container-width: 850px;
+        --peculiarities-item-width: 835px;
+        --peculiarities-item-height: 290px;
     }
 
     .main-info__desctiption {
@@ -97,19 +119,22 @@
         --font-size-medium: 1.4375rem;
     }
 
-}
-
-@media (max-width: 850px) {
-    :root {
-        --requests-container-width: 760px;
-        --font-size-extra-medium: 1.45rem;
-        --requests-item-width: 230px;
-        --requests-item-height: 116px;
+    .differences__list-title {
+        --font-size-large: 1.75rem;
     }
 
-    .requests__item-text {
-        --font-size-medium: 1.2rem;
+    .differences__item-text {
+        --font-size-small-variant-2: 1.3125rem;
     }
+
+    .peculiarities__item-title {
+        --font-size-medium: 1.625rem;
+    }
+
+    .peculiarities__item-description {
+        --font-size-extra-small-variant-1: 1.1875rem;
+    }
+
 
 }
 
@@ -119,6 +144,33 @@
         --main-info-content-width: 450px;
         --font-size-main-title: 2.7rem;
     }
+}
+
+@media (max-width: 850px) {
+    :root {
+        --requests-container-width: 760px;
+        --font-size-extra-medium: 1.45rem;
+        --requests-item-width: 230px;
+        --requests-item-height: 116px;
+        --differences-container-widht: 750px;
+        --differences-list-container-widht: 360px;
+    }
+
+    .requests__item-text {
+        --font-size-medium: 1.2rem;
+    }
+
+    .differences__item-text {
+        --font-size-small-variant-2: 1.1rem;
+    }
+
+}
+
+@media (max-width: 835px) {
+    :root {
+        --peculiarities-item-width: 760px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -131,21 +183,48 @@
         --button-large-height: 39px;
         --button-large-font-size: 1.0625rem;
         --font-size-title-block: 1.875rem;
-
         --requests-container-width: 647px;
         --font-size-extra-medium: 1.5625rem;
         --requests-item-width: 202px;
         --requests-item-height: 112px;
+
+        --differences-container-widht: 635px;
+        --differences-list-container-widht: 314px;
+
+        --peculiarities-container-width: 100%;
+        --peculiarities-item-width: 630px;
+        --peculiarities-item-height: 210px;
     }
 
     .main-info__desctiption {
         --font-size-small-variant-2: 1.0625rem;
-        --main-info-description-width: 330px;
+        --main-info-description-width: 100%;
     }
 
     .requests__item-text {
         --font-size-medium: 1.0625rem;
     }
+
+    .differences__list-title {
+        --font-size-large: 1.5625rem;
+    }
+
+    .differences__item-text {
+        --font-size-small-variant-2: 1.0625rem;
+    }
+
+    .peculiarities__item-label {
+        --font-size-large-extra: 1.75rem;
+    }
+
+    .peculiarities__item-title {
+        --font-size-medium: 1.3125rem;
+    }
+
+    .peculiarities__item-description {
+        --font-size-extra-small-variant-1: 0.9375rem;
+    }
+
 }
 
 @media (max-width: 660px) {
@@ -162,6 +241,26 @@
     }
 }
 
+@media (max-width: 635px) {
+    :root {
+        --differences-container-widht: 90%;
+        --peculiarities-item-width: 450px;
+    }
+
+    .peculiarities__item-label {
+        --font-size-large-extra: 1.1875rem;
+    }
+
+    .peculiarities__item-title {
+        --font-size-medium: 1.1rem;
+    }
+
+    .peculiarities__item-description {
+        --font-size-extra-small-variant-1: 0.875rem;
+    }
+}
+
+
 
 @media (max-width: 570px) {
     :root {
@@ -177,7 +276,6 @@
     }
 }
 
-
 @media (max-width: 450px) {
     :root {
         --main-info-container-width: 100%;
@@ -187,11 +285,16 @@
         --button-large-width: 255.21px;
         --button-large-height: 45px;
         --button-large-font-size: 1.0625rem;
+        --peculiarities-item-width: 390px;
     }
 
     .main-info__desctiption {
         --font-size-small-variant-2: 1.0625rem;
         --main-info-description-width: 346px;
+    }
+
+    .peculiarities__item-label {
+        --font-size-large-extra: 1.4375rem;
     }
 
 }
@@ -204,11 +307,17 @@
         --requests-item-width: 192px;
         --requests-item-height: 128px;
         --font-size-extra-medium: 1.4375rem;
+        --differences-container-widht: 344px;
     }
 
     .requests__item-text {
         --font-size-medium: 1rem;
     }
+
+    .peculiarities__item-title {
+        --font-size-medium: 1.125rem;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -229,15 +338,43 @@
 
 }
 
+@media (max-width: 390px) {
+    :root {
+        --peculiarities-item-width: 330px;
+    }
+
+    .peculiarities__item-title {
+        --font-size-medium: 1rem;
+    }
+
+    .peculiarities__item-description {
+        --font-size-extra-small-variant-1: 0.8125rem;
+    }
+}
 
 @media (max-width: 360px) {
     :root {
         --font-size-main-title: 1.875rem;
         --button-large-width: 228.21px;
         --button-large-height: 40px;
+        --differences-container-widht: 100%;
+        --differences-list-container-widht: 293px;
     }
 
     .main-info__desctiption {
         --font-size-small-variant-2: 1rem;
+    }
+
+    .differences__list-title {
+        --font-size-large: 1.375rem;
+    }
+
+    .differences__item-text {
+        --font-size-small-variant-2: 1rem;
+    }
+
+    .differences__title {
+        --font-size-title-block: 1.6875rem;
+
     }
 }

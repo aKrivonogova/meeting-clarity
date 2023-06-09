@@ -53,7 +53,7 @@
         width: 57.88px;
         height: 142.47px;
         left: 26px;
-        bottom: 38px;
+        bottom: 25px;
     }
 
     .requests__item:nth-child(4)>.requests__item-image {
@@ -68,7 +68,7 @@
         height: 123.66px;
         transform: rotate(-3.75deg);
         top: -30px;
-        left: 1px;
+        left: -10px;
     }
 
 
@@ -174,7 +174,7 @@
     }
 
     .requests__item:nth-child(5)>.requests__item-image {
-        width: 86.85px;
+        width: 80.85px;
         height: 68.89px;
         left: -6px;
     }

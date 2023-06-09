@@ -15,3 +15,11 @@
         background-image: url('../../images/MainInfoBackground445.png');
     }
 }
+
+@media (min-width: 1600px) {
+    .main-info{
+        background-position: top;
+        background-image: url('../../images/mainBack1920.png');
+    }
+    
+}

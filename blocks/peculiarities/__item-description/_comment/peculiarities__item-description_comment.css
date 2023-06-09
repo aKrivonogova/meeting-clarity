@@ -1,3 +1,25 @@
-.peculiarities__item-description_comment{
+.peculiarities__item-description_comment {
     margin-bottom: 30px;
+    padding-bottom: 0 !important;
 }
+
+@media (max-width:1024px) {
+    .peculiarities__item-description_comment {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    .peculiarities__item-description_comment {
+        margin-bottom: 23px;
+    }
+}
+
+
+@media (max-width: 635px) {
+    .peculiarities__item-description_comment {
+        margin-bottom: 10px;
+    }
+}
+
+ 

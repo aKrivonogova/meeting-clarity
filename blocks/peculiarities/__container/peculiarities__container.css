@@ -1,5 +1,5 @@
 .peculiarities__container {
-    max-width: 916px;
+    max-width: var(--peculiarities-container-width);
     display: flex;
     flex-direction: column;
     align-items: center;

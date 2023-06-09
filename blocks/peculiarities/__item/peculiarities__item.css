@@ -1,25 +1,173 @@
 .peculiarities__item {
-    width: 916px;
-    min-height: 326px;
-    background-image: url('../../../images/peculiaritiesItemBack.svg');
+    width: var(--peculiarities-item-width);
     position: relative;
-    margin-bottom: 65px;
-    background-size: cover;
+    margin-bottom: 70px;
     background-repeat: no-repeat;
+    background-size: 100% 315px;
+    background-image: url('../../../images/peculiaritiesItemBack/peculiaritiesItem1440_small.png');
 }
 
 .peculiarities__item::before {
     position: absolute;
-    width: 832px;
     height: 35px;
-    bottom: 10px;
-    left: 47px;
-    z-index: -2;
+    width: 90%;
     content: '';
     background: #C82657;
     border-radius: 10px;
+    left: 5%;
+    top: 85%;
+    z-index: -3;
+}
+
+.peculiarities__item:nth-of-type(1)::before {
+    top: 88%;
 }
 
 .peculiarities__item:last-of-type {
     margin-bottom: 0;
+}
+
+.peculiarities__item:nth-of-type(1) {
+    background-image: url('../../../images/peculiaritiesItemBack.png');
+    background-size: 100% 327px;
+}
+
+@media (max-width: 1024px) {
+    .peculiarities__item:nth-of-type(1) {
+        background-image: url('../../../images/peculiaritiesItemBack1024.svg');
+        background-size: 100% 100%;
+    }
+
+    .peculiarities__item {
+        background-image: url('../../../images/peculiarities1024_small.svg');
+        background-size: 100% 100%;
+    }
+
+    .peculiarities__item:nth-of-type(1)::before,
+    .peculiarities__item::before {
+        top: 84%;
+    }
+}
+
+@media (max-width: 835px) {
+
+    .peculiarities__item:nth-of-type(1)::before,
+    .peculiarities__item::before {
+        top: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .peculiarities__item:nth-of-type(1)::before {
+        top: 76%;
+    }
+
+    .peculiarities__item:nth-of-type(2)::before {
+        top: 79%;
+    }
+
+    .peculiarities__item:nth-of-type(3)::before {
+        top: 80%;
+    }
+
+    .peculiarities__item:nth-of-type(2) {
+        margin-bottom: 39px;
+    }
+
+    .peculiarities__item {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 635px) {
+    .peculiarities__item {
+        background-size: 100% 100%;
+        background-image: url('../../../images/peculiaritiesItemBack/425Block.png');
+    }
+
+    .peculiarities__item,
+    .peculiarities__item:nth-of-type(2) {
+        margin-bottom: 20px;
+    }
+
+    .peculiarities__item:nth-of-type(1)::before {
+        top: 72%;
+    }
+
+    .peculiarities__item:nth-of-type(2)::before,
+    .peculiarities__item:nth-of-type(3)::before {
+        top: 75%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .peculiarities__item,
+    .peculiarities__item:nth-of-type(1) {
+        background-size: 100% 250px;
+        background-image: url('../../../images/peculiaritiesItemBack/425Block.png');
+    }
+
+    .peculiarities__item:nth-of-type(1) {
+        padding-top: 55px;
+    }
+
+    .peculiarities__item:nth-of-type(2) {
+        margin-bottom: 40px;
+        padding-top: 50px;
+        background-size: 100% 255px;
+    }
+
+    .peculiarities__item:nth-of-type(3) {
+        background-size: 100% 235px;
+        padding-top: 50px;
+    }
+
+    .peculiarities__item:nth-of-type(1)::before {
+        top: 80%;
+    }
+
+    .peculiarities__item:nth-of-type(2)::before {
+        top: 84%;
+    }
+
+    .peculiarities__item:nth-of-type(3)::before {
+        top: 82%;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .peculiarities__item,
+    .peculiarities__item:nth-of-type(1) {
+        background-image: url('../../../images/block390.png');
+        background-size: 100% 100%;
+        margin-bottom: 0;
+    }
+
+    .peculiarities__item:nth-of-type(2) {
+        background-size: 100% 240px;
+    }
+    .peculiarities__item:nth-of-type(3) {
+        background-size: 100% 220px;
+        margin-bottom: 0;
+    }
+
+    .peculiarities__item:nth-of-type(1) {
+        padding-top: 45px;
+    }
+
+    .peculiarities__item:nth-of-type(1)::before {
+        top: 78.5%;
+    }
+
+    .peculiarities__item:nth-of-type(2)::before {
+        top: 82%;
+    }
+
+    .peculiarities__item:nth-of-type(3)::before {
+        top: 77.5%;
+    }
+
 }

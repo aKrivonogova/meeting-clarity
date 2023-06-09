@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/fonts.css">
+    <title></title>
+</head>
+
+<style>
+    .peculiarities {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peculiarities__container {
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peculiarities__title {
+        font-family: 'Archivo Narrow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 127.69%;
+        /* or 45px */
+
+        text-align: center;
+
+        color: #252525;
+    }
+
+    .peculiarities__list-container {
+        list-style: none;
+        width: 900px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .peculiarities__list{
+        list-style: none;
+        width: 100%;
+    }
+
+    .peculiarities__item{
+        width: 900px;
+        background-image: url('./images/peculiaritiesItemBack.png');
+        background-size: 900px 317px;
+        background-position: center;
+        min-height: 317px;
+        background-repeat: no-repeat;
+        margin-bottom: 70px;
+     }
+
+     @media (max-width: 1024px) {
+        .peculiarities__item{
+            width: 817px;
+            background-size: 100% 291px;
+            min-height: 291px;
+        }
+     }
+</style>
+
+<body>
+    <section class="peculiarities">
+        <div class="peculiarities__container">
+            <h2 class="peculiarities__title">В ЧЕМ ОСОБЕННОСТЬ МОЕГО КОУЧИНГА?</h2>
+            <div class="peculiarities__list-container">
+                <ul class="peculiarities__list">
+                    <li class="peculiarities__item">
+                        <span class="peculiarities__item-label">01</span>
+                        <div class="peculiarities__text-container">
+                            <h3 class="peculiarities__item-title">Авторский коучинговый дневник</h3>
+                            <p class="peculiarities__item-description peculiarities__item-description_comment">
+                                (выдается при покупке пакета сессий)</p>
+                            <p class="peculiarities__item-description">Дневник является сильным инструментым,
+                                который
+                                помогает видеть ваше мышление и ограничения как на ладони. Именно благодаря
+                                использованию дневнику мой метод называют “наглядным коучингом”.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="peculiarities__item">
+                        <span class="peculiarities__item-label">02</span>
+                        <div class="peculiarities__text-container">
+                            <h3 class="peculiarities__item-title">Сочетание рационального и интуитивного</h3>
+                            <p class="peculiarities__item-description">Разным людям подходят разные инструменты. Я
+                                могу
+                                использовать загрузки или медитации, а могу вместе с вами расписать стратегию и
+                                бизнес-план. Благодаря такому сочетанию вы сможете получить твердые результаты, но
+                                сделать это легче и приятнее.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="peculiarities__item">
+                        <span class="peculiarities__item-label">03</span>
+                        <div class="peculiarities__text-container">
+
+                            <h3 class="peculiarities__item-title">Мы находим для вас самый интересный путь</h3>
+                            <p class="peculiarities__item-description">К цели можно прийти разными способами. На
+                                пути
+                                можно заставлять себя и ненавидеть каждый шаг. А можно выбрать самый интересный и
+                                захватывающий жизненный опыт. Интересный путь всегда приводит к невероятным
+                                результатам.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

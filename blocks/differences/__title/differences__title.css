@@ -3,11 +3,44 @@
     font-style: normal;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-title-block);
-    line-height: 127.69%;
+    line-height: 42.14px;
     text-align: center;
     color: var(--font-color-variant-1);
     padding-top: 78px;
     max-width: 735px;
-    margin-bottom: 123px;
+    margin-bottom: 115px;
+}
 
+
+@media (max-width: 1024px) {
+    .differences__title {
+        padding-top: 67px;
+        max-width: 650px;
+        line-height: 127.69%;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .differences__title {
+        padding-top: 40px;
+        max-width: 590px;
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 425px) {
+    .differences__title {
+        padding-top: 76px;
+        width: 100%;
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 360px) {
+    .differences__title {
+        padding-top: 76px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }

@@ -8,4 +8,26 @@
     text-align: center;
     color: var(--font-color-variant-1);
     margin-bottom: 131px;
+
+}
+
+@media (max-width:1024px) {
+    .peculiarities__title {
+        padding-top: 85px;
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .peculiarities__title {
+        max-width: 350px;
+        padding-top: 65px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    .peculiarities__title {
+        margin-bottom: 80px;
+    }
 }

@@ -147,7 +147,7 @@
     }
 
     .peculiarities__item:nth-of-type(2) {
-        background-size: 100% 240px;
+        background-size: 100% 230px;
     }
     .peculiarities__item:nth-of-type(3) {
         background-size: 100% 220px;
@@ -163,11 +163,11 @@
     }
 
     .peculiarities__item:nth-of-type(2)::before {
-        top: 82%;
+        top: 78%;
     }
 
     .peculiarities__item:nth-of-type(3)::before {
-        top: 77.5%;
+        top: 77%;
     }
 
 }

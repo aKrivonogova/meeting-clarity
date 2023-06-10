@@ -2,3 +2,9 @@
     color: #302F2F;
     margin-bottom: 10px;
 }
+
+@media (max-width: 425px) {
+    .footer__text_phone{
+        margin-bottom: 5px;
+    }
+}

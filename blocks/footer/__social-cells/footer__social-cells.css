@@ -1,5 +1,5 @@
 .footer__social-cells {
-    width: 180px;
+    width: var(--footer-social-cells-width);
     display: flex;
     justify-content: space-between;
 }
@@ -8,3 +8,18 @@
     width: 29.9px;
     height: 29.9px;
 }
+
+@media (max-width: 768px) {
+    .footer__social-cells>img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__social-cells>img {
+        width: 18px;
+        height: 18px;
+    }
+}
+

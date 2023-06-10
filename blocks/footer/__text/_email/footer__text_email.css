@@ -2,3 +2,9 @@
     color: #C82657;
     margin-bottom: 35px;
 }
+
+@media (max-width: 425px) {
+    .footer__text_email{
+        margin-bottom: 20px;
+    }
+}

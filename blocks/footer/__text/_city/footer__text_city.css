@@ -1,7 +1,19 @@
 .footer__text_city {
-    font-size: 21px;
+    font-size: var(--font-size-pre-small);
     line-height: 25px;
     font-weight: var(--font-weight-light);
     color: #302F2F;
     margin-bottom: 65px;
+}
+
+@media (max-width: 768px) {
+    .footer__text_city{
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__text_city{
+        margin-bottom: 30px;
+    }
 }

@@ -6,3 +6,21 @@
     padding-bottom: 53px;
     background: #F7F6F6;
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        padding-bottom: 20px;
+    }
+}

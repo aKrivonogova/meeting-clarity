@@ -6,3 +6,16 @@
     background: #F7F6F6;
     padding-bottom: 88px;
 }
+
+@media (max-width: 425px) {
+    .price {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 360px) {
+    .price {
+        padding-bottom: 45px;
+    }
+}
+

@@ -10,3 +10,25 @@
     color: var(--font-color-variant-1);
 }
 
+@media (max-width: 768px) {
+    .questions__title {
+        padding-top: 65px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .questions__title {
+        max-width: 299px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 360px) {
+    .questions__title {
+        max-width: 320px;
+        padding-top: 60px;
+        margin-bottom: 40px;
+
+    }
+}

@@ -27,3 +27,9 @@
         justify-content: space-around;
     }
 }
+
+@media (max-width: 360px) {
+    .requests__list {
+        padding-bottom: 32px;
+    }
+}

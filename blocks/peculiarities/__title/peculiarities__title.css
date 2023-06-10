@@ -26,6 +26,13 @@
     }
 }
 
+@media (max-width: 425px) {
+    .peculiarities__title{
+        margin-bottom: 90px;
+    }
+    
+}
+
 @media (max-width: 390px) {
     .peculiarities__title {
         margin-bottom: 80px;

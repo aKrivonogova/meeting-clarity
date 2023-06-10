@@ -15,6 +15,13 @@
     }
 }
 
+
+@media (max-width: 425px) {
+    .price__text_sum {
+        margin-bottom: 3px;
+    }
+}
+
 @media (max-width: 340px) {
     .price__text_sum {
         line-height: 29px;

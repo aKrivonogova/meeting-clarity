@@ -5,8 +5,32 @@
     font-size: var(--font-size-title-block);
     line-height: 127.69%;
     text-align: center;
-    padding-top: 78px;
+    padding-top: 85px;
     margin-bottom: 76px;
     color: var(--font-color-variant-1);
+}
 
+@media (max-width: 1024px) {
+    .price__title {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .price__title {
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 425px) {
+    .price__title {
+        padding-top: 50px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 360px) {
+    .price__title {
+        margin-bottom: 50px;
+    }
 }

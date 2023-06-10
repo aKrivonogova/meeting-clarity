@@ -48,7 +48,7 @@
     --button-small-font-size: 1.3125rem;
     --button-small-width: 319px;
     --button-large-width: 341px;
-    --button-small-height: 60px;
+    --button-small-height: 61px;
     --button-large-height: 65px;
 
     /* размеры  */
@@ -64,6 +64,9 @@
     --peculiarities-container-width: 920px;
     --peculiarities-item-width: 916px;
     --peculiarities-item-height: 317px;
+    --price-container-width: 460px;
+    --price-description-container-width: 444px;
+    --price-description-content-width: 442px;
 }
 
 
@@ -194,6 +197,14 @@
         --peculiarities-container-width: 100%;
         --peculiarities-item-width: 630px;
         --peculiarities-item-height: 210px;
+
+        --button-small-width: 283px;
+        --button-small-height: 54px;
+
+        --price-description-container-width: 390px;
+        --price-description-content-width: 388px;
+        --price-container-width: 407px;
+
     }
 
     .main-info__desctiption {
@@ -223,6 +234,14 @@
 
     .peculiarities__item-description {
         --font-size-extra-small-variant-1: 0.9375rem;
+    }
+
+    .price__text {
+        --font-size-small-variant-2: 1.375rem;
+    }
+
+    .price__text_sum {
+        --font-size-large-extra: 1.875rem;
     }
 
 }
@@ -308,6 +327,13 @@
         --requests-item-height: 128px;
         --font-size-extra-medium: 1.4375rem;
         --differences-container-widht: 344px;
+
+        --button-small-width: 237px;
+        --button-small-height: 45px;
+
+        --price-description-container-width: 327px;
+        --price-description-content-width: 325px;
+        --price-container-width: 337px;
     }
 
     .requests__item-text {
@@ -316,6 +342,14 @@
 
     .peculiarities__item-title {
         --font-size-medium: 1.125rem;
+    }
+
+    .price__text {
+        --font-size-small-variant-2: 1.1875rem;
+    }
+
+    .price__text_sum {
+        --font-size-large-extra: 1.6875rem;
     }
 
 }

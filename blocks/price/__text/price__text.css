@@ -2,7 +2,7 @@
     font-family: var(--font-family-standart-variant-2);
     font-style: normal;
     font-weight: var(--font-weight-light);
-    font-size: var(--font-size-small-variant2);
+    font-size: var(--font-size-small-variant-2);
     line-height: 29px;
     text-align: center;
     color: var(--font-color-variant-1);
@@ -16,9 +16,36 @@
 .price-description__text-block:nth-child(3)>.price__text {
     width: 280px;
     position: relative;
-    right: 40px;
+    right: 30px;
 }
 
-.price__text :last-of-type {
-    margin-bottom: 39px;
+
+@media (max-width: 768px) {
+    .price__text {
+        line-height: 26px;
+    }
+
+    .price-description__content>.price__text:first-of-type {
+        padding-bottom: 0;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .price__text {
+        line-height: 22px;
+    }
+
+    .price-description__text-block:nth-child(1)>.price__text {
+        padding-top: 20px;
+    }
+
+    .price-description__text-block:nth-child(2)>.price__text {
+        position: relative;
+        width: 155px;
+    }
+    .price-description__text-block:nth-child(3)>.price__text {
+        right: 25px;
+    }
+
 }

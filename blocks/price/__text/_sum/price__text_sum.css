@@ -8,3 +8,10 @@
     color: #C82657;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .price__text_sum {
+        line-height: 35px;
+    }
+
+}

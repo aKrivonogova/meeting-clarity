@@ -1,5 +1,5 @@
 .price-description__content {
-    width: 442px;
+    width: var(--price-description-content-width);
     display: flex;
     flex-direction: column;
     align-items: center;

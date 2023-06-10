@@ -1,8 +1,7 @@
-.price__text_bold {
+span.price__text_bold {
     font-weight: var(--font-weight-bold);
     white-space: pre-wrap;
-    white-space: -moz-pre-wrap;   
-    white-space: -o-pre-wrap;  
-    word-wrap: break-word;  
-
+    word-wrap: break-word;
+    margin-bottom: 0;
+    display: block;
 }

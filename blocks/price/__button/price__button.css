@@ -7,6 +7,6 @@
     font-family: var(--font-family-standart-variant-2);
     font-size: 21px;
     color: #FCF8FB;
-    width: 319px;
-    height: 60.81px;
+    width: var(--button-small-width);
+    height: var(--button-small-height);
 }

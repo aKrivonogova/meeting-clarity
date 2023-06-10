@@ -13,5 +13,11 @@
     .price__text_sum {
         line-height: 35px;
     }
+}
+
+@media (max-width: 340px) {
+    .price__text_sum {
+        line-height: 29px;
+    }
 
 }

@@ -5,8 +5,15 @@
     border-radius: 20px;
     margin-bottom: 40px;
     font-family: var(--font-family-standart-variant-2);
-    font-size: 21px;
+    font-size: var(--button-small-font-size);
     color: #FCF8FB;
     width: var(--button-small-width);
     height: var(--button-small-height);
+}
+
+@media (max-width: 340px) {
+    .price__button{
+        margin-bottom: 30px;
+    }
+    
 }

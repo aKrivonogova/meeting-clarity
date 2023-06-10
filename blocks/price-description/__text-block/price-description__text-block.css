@@ -34,13 +34,25 @@
     }
 
     .price-description__text-block:nth-child(2) {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
 
     .price-description__text-block:nth-child(3)>.price__text {
         max-width: 208px;
     }
+
     .price-description__text-block:nth-child(3) {
         margin-bottom: 11px;
     }
 }
+
+
+@media (max-width: 340px) {
+    .price-description__text-block {
+        width: 126px;
+    }
+    .price-description__text-block:nth-child(1) {
+        margin-bottom: 14px;
+    }
+}
+

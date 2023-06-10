@@ -204,6 +204,7 @@
         --price-description-container-width: 390px;
         --price-description-content-width: 388px;
         --price-container-width: 407px;
+        --button-small-font-size: 1.25rem;
 
     }
 
@@ -334,6 +335,7 @@
         --price-description-container-width: 327px;
         --price-description-content-width: 325px;
         --price-container-width: 337px;
+        --button-small-font-size: 1.1875rem;
     }
 
     .requests__item-text {
@@ -410,5 +412,24 @@
     .differences__title {
         --font-size-title-block: 1.6875rem;
 
+    }
+}
+
+@media (max-width: 340px) {
+    :root {
+        --price-description-container-width: 282px;
+        --price-description-content-width: 279px;
+        --price-container-width: 100%;
+        --button-small-width: 204px;
+        --button-small-height: 39px;
+        --button-small-font-size: 1.0625rem;
+    }
+
+    .price__text {
+        --font-size-small-variant-2: 1.0625rem;
+    }
+
+    .price__text_sum {
+        --font-size-large-extra: 1.5625rem;
     }
 }

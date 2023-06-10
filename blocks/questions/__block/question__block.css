@@ -44,3 +44,13 @@
 
 
 }
+
+@media (max-width: 340px) {
+    .question__content:nth-of-type(2)>.question__block {
+        padding-top: 14px;
+    }
+
+    .question__content:nth-of-type(3)>.question__block {
+        padding-top: 14px;
+    }
+}

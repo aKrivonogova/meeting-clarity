@@ -26,6 +26,7 @@
     .question__content:nth-of-type(1)>.question__block>.question__text {
         max-width: 237px;
     }
+
     .question__text {
         margin-bottom: 10px;
     }
@@ -37,6 +38,21 @@
 
     .question__content:nth-of-type(3)>.question__block>.question__text {
         max-width: 275px;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .question__content:nth-of-type(1)>.question__block>.question__text {
+        max-width: 220px;
+    }
+
+    .question__content:nth-of-type(2)>.question__block>.question__text {
+        max-width: 206px;
+    }
+
+    .question__content:nth-of-type(3)>.question__block>.question__text {
+        max-width: 196px;
     }
 
 }

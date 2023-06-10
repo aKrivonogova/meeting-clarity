@@ -475,6 +475,9 @@
         --button-small-width: 204px;
         --button-small-height: 39px;
         --button-small-font-size: 1.0625rem;
+
+        --questions-container-width: 319px;
+        --questions-content-width: 309px;
     }
 
     .price__text {
@@ -484,4 +487,9 @@
     .price__text_sum {
         --font-size-large-extra: 1.5625rem;
     }
+
+    .question__text {
+        --font-size-medium: 1.0625;
+    }
+
 }

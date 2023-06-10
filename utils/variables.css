@@ -67,6 +67,8 @@
     --price-container-width: 460px;
     --price-description-container-width: 444px;
     --price-description-content-width: 442px;
+    --questions-container-width: 792px;
+    --questions-content-width: 762px;
 }
 
 
@@ -111,6 +113,9 @@
         --peculiarities-container-width: 850px;
         --peculiarities-item-width: 835px;
         --peculiarities-item-height: 290px;
+        --questions-container-width: 767px;
+        --questions-content-width: 707px;
+
     }
 
     .main-info__desctiption {
@@ -136,6 +141,14 @@
 
     .peculiarities__item-description {
         --font-size-extra-small-variant-1: 1.1875rem;
+    }
+
+    .question__text {
+        --font-size-medium: 1.625rem;
+    }
+
+    .response__text {
+        --font-size-extra-small-variant-1: 1.3125rem;
     }
 
 
@@ -206,6 +219,9 @@
         --price-container-width: 407px;
         --button-small-font-size: 1.25rem;
 
+        --questions-container-width: 608px;
+        --questions-content-width: 560px;
+
     }
 
     .main-info__desctiption {
@@ -245,6 +261,14 @@
         --font-size-large-extra: 1.875rem;
     }
 
+    .question__text {
+        --font-size-medium: 1.375rem;
+    }
+
+    .response__text {
+        --font-size-extra-small-variant-1: 1.125rem;
+    }
+
 }
 
 @media (max-width: 660px) {
@@ -277,6 +301,21 @@
 
     .peculiarities__item-description {
         --font-size-extra-small-variant-1: 0.875rem;
+    }
+}
+
+@media (max-width: 610px) {
+    :root {
+        --questions-container-width: 420px;
+        --questions-content-width: 390px;
+    }
+
+    .question__text {
+        --font-size-medium: 1.2rem;
+    }
+
+    .response__text {
+        --font-size-extra-small-variant-1: 1rem;
     }
 }
 
@@ -336,6 +375,10 @@
         --price-description-content-width: 325px;
         --price-container-width: 337px;
         --button-small-font-size: 1.1875rem;
+
+        --questions-container-width: 326px;
+        --questions-content-width: 326px;
+
     }
 
     .requests__item-text {
@@ -354,7 +397,16 @@
         --font-size-large-extra: 1.6875rem;
     }
 
+    .question__text {
+        --font-size-medium: 1.125rem;
+    }
+
+    .response__text {
+        --font-size-extra-small-variant-1: 0.875rem;
+    }
 }
+
+
 
 @media (max-width: 400px) {
     :root {

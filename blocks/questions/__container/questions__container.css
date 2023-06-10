@@ -1,6 +1,7 @@
 .questions__container{
-    width: 792px;
+    width: var(--questions-container-width);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+

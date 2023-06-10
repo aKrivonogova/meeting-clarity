@@ -32,7 +32,7 @@
 @media (max-width: 425px) {
     .differences__title {
         padding-top: 76px;
-        width: 100%;
+        max-width: 324px;
         margin-bottom: 55px;
     }
 }
